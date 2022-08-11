@@ -26,7 +26,7 @@
 
             <TextView
                 android:id="@+id/tx_titulo"
-                android:layout_width="888dp"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/tx_agregareditar"
                 android:textAlignment="center"
