@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ActividadD19</string>
+    <string name="tx_splash">Biblioteca App</string>
+    <string name="bt_sgregar">Agregar</string>
+    <string name="bt_guardar">Guardar</string>
+    <string name="bt_cargarIMG">Cargar imagen</string>
+    <string name="tx_agregareditar">Agregar/Editar Libros</string>
+    <string name="et_titulo">Titulo</string>
+    <string name="et_autor">Autor</string>
+    <string name="et_editorial">Editorial</string>
+    <string name="et_anio">Año</string>
+    <string name="textview">TextView</string>
+</resources>
