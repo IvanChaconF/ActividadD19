@@ -9,5 +9,7 @@
     <string name="et_autor">Autor</string>
     <string name="et_editorial">Editorial</string>
     <string name="et_anio">Año</string>
+    <string name="et_precio">Precio</string>
+    <string name="et_cate">Categoria</string>
     <string name="textview">TextView</string>
 </resources>

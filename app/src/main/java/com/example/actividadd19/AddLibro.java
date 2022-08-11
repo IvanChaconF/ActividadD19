@@ -19,7 +19,7 @@ import java.io.ByteArrayOutputStream;
 
 public class AddLibro extends AppCompatActivity {
 
-    EditText et_titulo,et_autor,et_editorial,et_anio;
+    EditText et_titulo,et_autor,et_editorial,et_anio,et_precio,et_cate;
     ImageView imv_libro;
     Button bt_guardar, bt_cargarImg;
 
@@ -34,6 +34,9 @@ public class AddLibro extends AppCompatActivity {
         et_editorial = (EditText) findViewById(R.id.et_editorial);
         et_anio = (EditText) findViewById(R.id.et_anio);
         imv_libro = (ImageView) findViewById(R.id.imv_libro);
+        et_precio = (EditText) findViewById(R.id.et_precio);
+        et_cate = (EditText) findViewById(R.id.et_cate);
+
 
 
     }
@@ -51,6 +54,8 @@ public class AddLibro extends AppCompatActivity {
         values.put(utilidades.CAMPO_AUTOR,et_autor.getText().toString());
         values.put(utilidades.CAMPO_EDITORIAL,et_editorial.getText().toString());
         values.put(utilidades.CAMPO_ANIO,et_anio.getText().toString());
+        values.put(utilidades.CAMPO_PRECIO,et_precio.getText().toString());
+        values.put(utilidades.CAMPO_CATEGORIA,et_cate.getText().toString());
 //        values.put(utilidades.CAMPO_IMG,bArray);
 
         Long id_resultante=db.insert(utilidades.TABLA_LIBROS,utilidades.CAMPO_ID, values);
